@@ -3,7 +3,7 @@
 from setuptools import setup
 
 setup(
-    name="cp210x-program",
+    name="kw-cp210x-program",
     description="Provides access to the EEPROM in an Silabs CP210x",
     long_description="""
 The goal of this library is to provide access to the EEPROM of an Silabs CP210x
@@ -28,7 +28,7 @@ Requires:
     url="https://github.com/VCTLabs/cp210x-program",
     platforms="POSIX",
     classifiers=[
-        "License :: OSI-Approved Open Source :: GNU Library or Lesser General Public License (LGPL)",
+        "License :: OSI Approved :: GNU Library or Lesser General Public License (LGPL)",
         "Intended Audience :: Manufacturing",
         "Development Status :: 4 - Beta",
         "Topic :: System :: Hardware :: Hardware Drivers",
